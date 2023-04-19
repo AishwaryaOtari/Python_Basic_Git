@@ -1,7 +1,7 @@
 
 
 from collections import Counter
-l1=[1,2,8,4,5,7,4,6,3,2,5,4,8,5,2,5,1]
+l1=[1,2,8,4,5,7,4,6,3,2,5,4,8,5,2,5,1,5,6,8]
 c=Counter(l1)
 d=c.most_common()
 print(d)
